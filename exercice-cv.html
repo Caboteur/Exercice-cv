@@ -1,0 +1,76 @@
+<!DOCYTPE html>
+<html>
+<head>
+<title>Exercice CV</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Shrikhand" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+      <a class="logo-nav">Adrien Blanchot</a>
+    </header>
+ <nav class="main-nav">
+
+      <a class="button-nav" href="#accueil">Accueil</a><br></br>
+      <a class="button-nav" href="#formation">Formation</a><br></br>
+      <a class="button-nav" href="#travaux">Travaux</a><br></br>
+      <a class="button-nav" href="#contact">Contact</a><br></br>
+
+    </nav>
+
+
+    <section id="accueil">
+      <h1 class="gros-titre" >CV<br/>HTML<br/><img src="https://github.com/tonytiratay/exo-html-cv/blob/master/solution/img/html5.jpg?raw=true" alt="ordi"></h1>
+    </section>
+    <section id="formation">
+      <h1 class="gros-titre" >Formation</h1>
+    </section>
+    <section id="travaux">
+      <h1 class="gros-titre" >Travaux</h1>
+      <br></br>
+      <table border cellpadding="15px">
+        <tr>
+          <th>
+            Titre
+          </th>
+          <th>
+             Vignette
+          </th>
+          <th>
+            Technologie/ technique utilisée
+          </th>
+          <th>
+            Date
+          </th>
+        </tr>
+        <tr>
+          <td>
+          </td>
+      </tr>
+      </table>
+    </section>
+    <section id="contact">
+      <h1 class="gros-titre" >Contact</h1>
+    <form method="post" action="traitement.php">
+      <p><form method="post" action="traitement.php">
+   <p>
+     <label for="pseudo">Votre pseudo</label> :
+     <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Bismuth" size="50" maxlength="20"/></p>
+     <label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label><br />
+       <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea>
+      <br>
+     </br>
+
+    <input id="bouton-envoyer" type="reset" value="Envoyer" />
+
+    <br>
+   </br>
+    <label for="Newsletter" class="checkbox">
+      <input type="checkbox" name="Newsletter" id="Newsletter" class="checkbox"/>
+      <span class="deco"></span>S'abonner à la Newsletter</label>
+</form></p>
+    </form>
+    </section>
+
+</body>
+</html>
